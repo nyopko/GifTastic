@@ -1,0 +1,47 @@
+#pictest{
+    height: 400px;
+    width: 1000px;
+    position: relative;
+    left: 30px;
+    bottom: -60px;  
+}
+
+#buttons{
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    text-align: left;
+}
+
+.image{
+    height: 150px;
+    float: left;
+    margin: 3px;
+    width: 200px;
+}
+
+.gifDiv{
+    max-width: 30%;
+    float: left;
+    margin: 3px;
+    overflow: hidden;   
+}
+
+#search {
+    position: absolute;
+    text-align: center;
+    top: 20%;
+    right: 10%;   
+    font-size: 20px;
+    height: 100px;
+    width: 300px;
+}
+
+body {
+    background-image: url(../images/purplebg.png);
+    color: white;   
+}
+
+a{ 
+    color: white;
+}
